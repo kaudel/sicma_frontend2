@@ -1,10 +1,11 @@
+import CustomBreadcrumbs from "@/components/custom/CustomBreadcrumbs";
 import CustomJumbotron from "@/components/custom/CustomJumbotron";
-import React from "react";
 
 const HomePage = () => {
   return (
     <>
       <CustomJumbotron title="SICMA" description="sicma description" />
+      <CustomBreadcrumbs currentPage="Home" />
     </>
   );
 };
