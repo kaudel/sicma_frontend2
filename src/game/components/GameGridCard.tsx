@@ -18,9 +18,3 @@ const GameGridCard = () => {
 };
 
 export default GameGridCard;
-
-/*
-que lleva cada juego
-Nombre, descripcion
-estaus
-*/

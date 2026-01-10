@@ -1,6 +1,7 @@
 import CustomBreadcrumbs from "@/components/custom/CustomBreadcrumbs";
 import CustomJumbotron from "@/components/custom/CustomJumbotron";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import GameApp from "@/game/components/GameApp";
 import GameGrid from "@/game/components/GameGrid";
 import { useState } from "react";
 
@@ -13,6 +14,7 @@ const HomePage = () => {
       <CustomJumbotron title="SICMA" description="sicma description" />
       <CustomBreadcrumbs currentPage="Home" />
 
+      {/* <GameApp /> */}
       {/*Tabs */}
       <Tabs value={activeTab} className="mb-8">
         <TabsList className="grid w-full grid-cols-4">
